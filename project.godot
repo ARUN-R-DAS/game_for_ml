@@ -11,5 +11,16 @@ config_version=5
 [application]
 
 config/name="game_for_ml"
+run/main_scene="uid://dx1bbtd13i2g7"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+global="*res://global.gd"
+
+[layer_names]
+
+2d_physics/layer_1="ground_boundaries"
+2d_physics/layer_2="player"
+2d_physics/layer_3="enemy"
